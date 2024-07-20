@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="container">
         <div className="row items-center gap-y-12">
           <div className="">
-            <h1 className='mb-16'>Scale your business and save 80% in employee's cost with 1% off-shore talent</h1>
+            <h1 className='mb-16'>Scale your business and save 80% in employee costs with 1% offshore talent</h1>
             <p className="leading-relaxed mb-16 text-xl md:text-2xl">
               <span className="text-secondary-600">We help your business to onboard, train and manage</span> your developers
             </p>
