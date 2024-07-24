@@ -49,7 +49,7 @@ const items: Array<CardType> = [
 const Cases = () => {
     return (
         <section className="py-8 w-full" id="cases">
-            <div className="grid grid-template-rows-1 grid-template-cols-1 gap-12 md:grid md:grid-cols-2" >
+            <div className="grid grid-template-rows-1 grid-template-cols-1 gap-8 md:grid md:grid-cols-2" >
                 { items.map( ((item, index) => (
                     <Card key={index} {...item} />
                 ))) }
