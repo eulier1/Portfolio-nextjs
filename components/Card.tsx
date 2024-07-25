@@ -26,7 +26,7 @@ const Card = ({title, description, images, imageDemo}: CardType) => {
                 <div className="relative">
                 <div className="absolute flex justify-center top-0">
                 <div className="relative p-2 md:p-4 bg-neutral-500 rounded-lg fill-tertiary-400 top-20">
-                    <img  className="relative w-auto"  alt="demo image" src={imageDemo.src}/>
+                    <Image  className="relative w-auto"  alt="demo image" src={imageDemo}/>
                </div>
                 </div>
             </div>
