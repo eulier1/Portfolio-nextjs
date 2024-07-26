@@ -46,16 +46,16 @@ const items: Array<CardType> = [
     }
 ]
 
-const Cases = () => {
+const CasesSection = () => {
     return (
-        <section className="py-8 w-full" id="cases">
+        <section className="py-8 md:py-32 w-full " id="cases">
             <div className="grid grid-template-rows-1 grid-template-cols-1 gap-8 md:grid md:grid-cols-2" >
                 { items.map( ((item, index) => (
-                    <Card key={index} {...item} />
+                    <Card key={index} {...item} isCases />
                 ))) }
             </div>
         </section>
     )
 }
 
-export default Cases
+export default CasesSection
