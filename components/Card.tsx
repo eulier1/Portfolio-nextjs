@@ -49,7 +49,7 @@ const Card = ({title = "Lorem Ipsum", description, images, imageDemo, isCases, i
                 <p>{testimonial.description}</p>
                 <div className="flex gap-4 sm:items-center flex-col sm:flex-row">
                     <div>
-                        <Image className="w-12 h-12 object-cover rounded-full" src={testimonial.url} alt="Portrait of a client" />
+                        <Image  width={90} height={90} className="w-12 h-12 object-cover rounded-full" src={testimonial.url} alt="Portrait of a client" />
                     </div>
                     <div>
                         <p className="mb-0 text-xl">{testimonial.name}</p>
