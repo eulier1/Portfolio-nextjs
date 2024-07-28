@@ -2,6 +2,7 @@ import CasesSection from "@/components/Cases";
 import FeaturesSection from "@/components/Features";
 import Hero from "@/components/Hero";
 import Partners from "@/components/Partners";
+import TestimonialSection from "@/components/Testimonials";
 import Image from "next/image";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
         <Partners />
         <CasesSection />
         <FeaturesSection />
+        <TestimonialSection />
         <p className="leading-relaxed mb-16 mt-16 text-xl md:text-2xl">
              <span className="">Soon more about WHO we are and WHAT we do</span>
         </p>
