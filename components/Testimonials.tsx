@@ -21,7 +21,7 @@ const TestimonialSection = () => {
     return (
         <section className="bg-neutral-100 w-screen py-20 md:py-48">
             <div className="grid gap-24">
-                <h2 className="text-neutral-700 opacity-60 text-center">As a result, we got testimonials like this</h2>
+                <h2 className="text-neutral-700 opacity-60 text-center">As a result, we got testimonials like these</h2>
                 <div className="flex flex-wrap gap-10 lg:gap-0 px-8 justify-center"  >
 
                         {testimonials.map( (testimonial) => (
