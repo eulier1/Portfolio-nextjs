@@ -1,5 +1,6 @@
 import CasesSection from "@/components/Cases";
 import FeaturesSection from "@/components/Features";
+import FeaturesLargeSection from "@/components/Features-Large";
 import Hero from "@/components/Hero";
 import Partners from "@/components/Partners";
 import TestimonialSection from "@/components/Testimonials";
@@ -13,6 +14,7 @@ export default function Home() {
         <CasesSection />
         <FeaturesSection />
         <TestimonialSection />
+        <FeaturesLargeSection />
         <p className="leading-relaxed mb-16 mt-16 text-xl md:text-2xl">
              <span className="">Soon more about WHO we are and WHAT we do</span>
         </p>
