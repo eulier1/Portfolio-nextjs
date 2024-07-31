@@ -188,9 +188,14 @@ const config: Config = {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' },
         },
+        'zoom-in-out': {
+          from : {transform: 'scale(1)'},
+          to: { transform: 'scale(1.45)'}
+        },
       },
       animation: {
         'slide-left-infinite': 'slide-left 10s linear infinite',
+        'zoom-in-out-infinite': 'zoom-in-out 3s linear infinite' 
       },
     }
   },
